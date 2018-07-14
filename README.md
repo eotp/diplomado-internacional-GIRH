@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge.svg)]()
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/eotp/diplomado-internacional-GIRH/master)
 
 # DIPLOMADO INTERNACIONAL EN GESTIÓN INTEGRADA DE RECURSOS HÍDRICOS
 
@@ -21,7 +21,7 @@ en tu consola. Activas tu nuevo entorno tecleando
 
 `activate diplomados` (en WINDOWS).
 
-Entonces estás listo (si estás atascado, echa un vistazo al [sitio de documentación de conda](https://conda.io/docs/user-guide/tasks/manage-environments.html#)). Alternativamente, puede iniciar [binder](https://binderhub.readthedocs.io/en/latest/) para obtener un entorno ejecutable reproducible inmediatamente en su navegador. Simplemente haga clic en el icono [_launch binder_]().
+Entonces estás listo (si estás atascado, echa un vistazo al [sitio de documentación de conda](https://conda.io/docs/user-guide/tasks/manage-environments.html#)). Alternativamente, puede iniciar [binder](https://binderhub.readthedocs.io/en/latest/) para obtener un entorno ejecutable reproducible inmediatamente en su navegador. Simplemente haga clic en el icono [_launch binder_](https://mybinder.org/v2/gh/eotp/diplomado-internacional-GIRH/master).
 
 ***
 
@@ -37,5 +37,5 @@ into your console. You activate your new environment by typing
 
 `activate diplomados` (on WINDOWS). 
 
-Then you are ready to go (if you are stuck check out the [conda documentation site](https://conda.io/docs/user-guide/tasks/manage-environments.html#)). Alternatively, you may launch [binder](https://binderhub.readthedocs.io/en/latest/) to get a reproducible executable environment immediately in your browser. Simply click the [_launch binder_]() icon in the upper left corner.
+Then you are ready to go (if you are stuck check out the [conda documentation site](https://conda.io/docs/user-guide/tasks/manage-environments.html#)). Alternatively, you may launch [binder](https://binderhub.readthedocs.io/en/latest/) to get a reproducible executable environment immediately in your browser. Simply click the [_launch binder_](https://mybinder.org/v2/gh/eotp/diplomado-internacional-GIRH/master) icon in the upper left corner.
 
