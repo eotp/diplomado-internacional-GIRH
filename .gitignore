@@ -3,3 +3,6 @@
 
 # exclude images in figures folder
 figures/*.png
+
+# exclude this file
+src/make_slides.py
