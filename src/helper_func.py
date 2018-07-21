@@ -1,5 +1,3 @@
-
-
 def plot_nino_regions():
     
     import matplotlib.pyplot as plt
