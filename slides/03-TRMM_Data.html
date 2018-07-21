@@ -11884,7 +11884,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span>
@@ -11900,7 +11900,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[4]:</div>
+<div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -11949,7 +11949,54 @@ Attributes:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[7]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;xarray.Dataset&gt;
+Dimensions:                 (nlat: 85, nlon: 63)
+Coordinates:
+  * nlon                    (nlon) float32 -82.375 -82.125 -81.875 -81.625 ...
+  * nlat                    (nlat) float32 -20.125 -19.875 -19.625 -19.375 ...
+Data variables:
+    precipitation           (nlat, nlon) float32 ...
+    relativeError           (nlat, nlon) float32 ...
+    gaugeRelativeWeighting  (nlat, nlon) int32 ...
+Attributes:
+    Grid.GridHeader:  BinMethod=ARITHMETIC_MEAN;\nRegistration=CENTER;\nLatit...
+    FileHeader:       AlgorithmID=3B43;\nAlgorithmVersion=3B43_7.0;\nFileName...
+    FileInfo:         DataFormatVersion=m;\nTKCodeBuildVersion=1;\nMetadataVe...
+    GridHeader:       BinMethod=ARITHMETIC_MEAN;\nRegistration=CENTER;\nLatit...
+    history:          2018-05-14 14:23:48 GMT Hyrax-1.13.4 https://disc2.gesd...</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span><span class="p">[</span><span class="s2">&quot;precipitation&quot;</span><span class="p">]</span>
@@ -11965,7 +12012,7 @@ Attributes:
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[5]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -11995,7 +12042,7 @@ Attributes:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span><span class="o">.</span><span class="n">precipitation</span>
@@ -12011,7 +12058,7 @@ Attributes:
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -12041,7 +12088,7 @@ Attributes:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">ds</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;Grid.GridHeader&quot;</span><span class="p">])</span>
@@ -12089,7 +12136,7 @@ Origin=SOUTHWEST;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span><span class="p">[</span><span class="s2">&quot;precipitation&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">();</span>
@@ -12132,7 +12179,7 @@ Origin=SOUTHWEST;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
@@ -12202,7 +12249,7 @@ Origin=SOUTHWEST;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">ds</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;FileHeader&quot;</span><span class="p">])</span>
@@ -12247,7 +12294,7 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">file_header</span> <span class="o">=</span> <span class="n">ds</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;FileHeader&quot;</span><span class="p">]</span>
@@ -12265,7 +12312,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[11]:</div>
+<div class="prompt output_prompt">Out[24]:</div>
 
 
 
@@ -12282,7 +12329,7 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
@@ -12300,7 +12347,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[12]:</div>
+<div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -12317,7 +12364,7 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span>
@@ -12335,7 +12382,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[13]:</div>
+<div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -12352,7 +12399,7 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">date</span><span class="o">.</span><span class="n">day</span>
@@ -12368,7 +12415,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[14]:</div>
+<div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -12385,7 +12432,7 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">date</span><span class="o">.</span><span class="n">month</span>
@@ -12401,7 +12448,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[15]:</div>
+<div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -12418,7 +12465,7 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">date</span><span class="o">.</span><span class="n">year</span>
@@ -12434,7 +12481,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[16]:</div>
+<div class="prompt output_prompt">Out[29]:</div>
 
 
 
@@ -12459,7 +12506,7 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># %load src/extract_timestep.py</span>
@@ -12481,7 +12528,54 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[32]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;xarray.Dataset&gt;
+Dimensions:                 (nlat: 85, nlon: 63)
+Coordinates:
+  * nlon                    (nlon) float32 -82.375 -82.125 -81.875 -81.625 ...
+  * nlat                    (nlat) float32 -20.125 -19.875 -19.625 -19.375 ...
+Data variables:
+    precipitation           (nlat, nlon) float32 0.0023387098 0.0056048376 ...
+    relativeError           (nlat, nlon) float32 ...
+    gaugeRelativeWeighting  (nlat, nlon) int32 ...
+Attributes:
+    Grid.GridHeader:  BinMethod=ARITHMETIC_MEAN;\nRegistration=CENTER;\nLatit...
+    FileHeader:       AlgorithmID=3B43;\nAlgorithmVersion=3B43_7.0;\nFileName...
+    FileInfo:         DataFormatVersion=m;\nTKCodeBuildVersion=1;\nMetadataVe...
+    GridHeader:       BinMethod=ARITHMETIC_MEAN;\nRegistration=CENTER;\nLatit...
+    history:          2018-05-14 14:23:48 GMT Hyrax-1.13.4 https://disc2.gesd...</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">extract_timestep</span><span class="p">(</span><span class="n">ds</span><span class="p">)</span>
@@ -12497,7 +12591,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[18]:</div>
+<div class="prompt output_prompt">Out[31]:</div>
 
 
 
@@ -12514,7 +12608,7 @@ MissingData=;
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">extract_timestep</span><span class="p">(</span><span class="n">ds</span><span class="p">)</span><span class="o">.</span><span class="n">day</span>
@@ -12530,7 +12624,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[19]:</div>
+<div class="prompt output_prompt">Out[33]:</div>
 
 
 
@@ -12549,13 +12643,13 @@ MissingData=;
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Solutiton-para-el-problema-con-unidades">Solutiton para el problema con unidades<a class="anchor-link" href="#Solutiton-para-el-problema-con-unidades">&#182;</a></h3>
+<h3 id="Soluci&#243;n-para-el-problema-con-unidades">Soluci&#243;n para el problema con unidades<a class="anchor-link" href="#Soluci&#243;n-para-el-problema-con-unidades">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span><span class="o">.</span><span class="n">precipitation</span>
@@ -12571,7 +12665,7 @@ MissingData=;
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[20]:</div>
+<div class="prompt output_prompt">Out[35]:</div>
 
 
 
@@ -12601,7 +12695,7 @@ Attributes:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">compute_mm_per_month_from_mm_per_hour</span><span class="p">(</span><span class="n">ds</span><span class="p">,</span> <span class="n">days</span><span class="p">):</span>
@@ -12615,7 +12709,7 @@ Attributes:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prec_mm_per_month</span> <span class="o">=</span> <span class="n">compute_mm_per_month_from_mm_per_hour</span><span class="p">(</span><span class="n">ds</span><span class="o">.</span><span class="n">precipitation</span><span class="p">,</span> <span class="n">extract_timestep</span><span class="p">(</span><span class="n">ds</span><span class="p">)</span><span class="o">.</span><span class="n">day</span><span class="p">)</span>
@@ -12632,7 +12726,7 @@ Attributes:
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[22]:</div>
+<div class="prompt output_prompt">Out[37]:</div>
 
 
 
@@ -12665,7 +12759,7 @@ Coordinates:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prec_mm_per_month</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
@@ -12681,13 +12775,13 @@ Coordinates:
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[23]:</div>
+<div class="prompt output_prompt">Out[38]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.collections.QuadMesh at 0xad11668&gt;</pre>
+<pre>&lt;matplotlib.collections.QuadMesh at 0x4e65e80&gt;</pre>
 </div>
 
 </div>
@@ -12721,7 +12815,7 @@ Coordinates:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
@@ -12766,7 +12860,7 @@ Coordinates:
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
 <h2 id="Deberes">Deberes<a class="anchor-link" href="#Deberes">&#182;</a></h2><blockquote><ul>
-<li>Vaya al repositorio en línea (<a href="">enlace</a>) e intente reproducir el análisis.</li>
+<li>Vaya al repositorio en línea (<a href="https://github.com/eotp/diplomado-internacional-GIRH">enlace</a>) e intente reproducir el análisis.</li>
 </ul>
 </blockquote>
 
